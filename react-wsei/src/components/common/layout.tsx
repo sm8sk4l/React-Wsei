@@ -1,7 +1,6 @@
 import { FC } from "react";
 import styled from "styled-components";
-
-// import { TopMenu } from
+import { Menu } from "./menu";
 
 const Wrapper = styled.div`
   width: 100%;
@@ -20,9 +19,8 @@ interface IProps {
 export const Layout: FC<IProps> = (props) => {
   return (
     <Wrapper>
-      <div>
-        <Content>{props.children}</Content>
-      </div>
+      <Menu />
+      <Content>{props.children}</Content>
     </Wrapper>
   );
 };

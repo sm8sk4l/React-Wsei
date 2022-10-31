@@ -9,5 +9,5 @@ html {
 }
 
 body{
-  background: #060604;
+  background: #fff;
 }`;

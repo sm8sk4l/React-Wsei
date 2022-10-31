@@ -5,7 +5,8 @@ import { Layout } from "./layout";
 import { colorStack } from "../style/colorStack";
 
 const Wrapper = styled.div`
-  border: 10px solid ${colorStack.black};
+  width: 100vw;
+  border: 10px solid ${colorStack.alpaca};
 `;
 
 const SecondSpan = styled.span`
